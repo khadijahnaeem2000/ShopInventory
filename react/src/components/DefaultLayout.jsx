@@ -9,7 +9,7 @@ export default function DefaultLayout() {
   if (!token) {
     return <Navigate to="/login"/>
   }
-  
+ 
   
   const onLogout = ev => {
     ev.preventDefault()
@@ -32,13 +32,15 @@ export default function DefaultLayout() {
     <div id="defaultLayout">
       <aside>
         <Link to="/dashboard">Dashboard</Link>
+        
         <Link to="/users">Users</Link>
         <Link to="/products">Products</Link>
+       
       </aside>
       <div className="content">
         <header>
           <div>
-            Header
+          
           </div>
 
           <div>
@@ -57,4 +59,5 @@ export default function DefaultLayout() {
       </div>
     </div>
   )
+      
 }

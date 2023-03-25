@@ -8,6 +8,7 @@ export default function Users() {
   const [loading, setLoading] = useState(false);
   const {setNotification} = useStateContext()
 
+  
   useEffect(() => {
     getUsers();
   }, [])
