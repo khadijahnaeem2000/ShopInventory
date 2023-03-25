@@ -1,10 +1,6 @@
-# Laravel React Example Full Stack Application
+# Laravel React Example Full Stack Application done with 24 hrs
 Example Application build with Laravel and React
 
-> The repo was created while I was working on the following [YouTube tutorial](https://youtu.be/qJq9ZMB2Was)
-
-## Demo
-https://laravel-react.com
 
 
 ## Installation 
